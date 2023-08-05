@@ -1,7 +1,15 @@
 .app-header { 
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     min-height: 25vh;
-    background-color: coral; 
-    color: blue;
+    background-color: rgb(255, 255, 255); 
+    padding: 4rem;
+    border: 3px solid red;
+    border-radius: 0.5rem;
+    opacity: 0.5;
+} 
+
+.header-logo { 
+    height: 11rem;
+    width: 11rem;
 }
