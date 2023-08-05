@@ -1,9 +1,10 @@
 .app-header { 
     display: flex;
     justify-content: space-between;
+    align-items: center;
     min-height: 25vh;
     background-color: rgb(255, 255, 255); 
-    padding: 4rem;
+    padding: 2rem;
     border: 3px solid red;
     border-radius: 0.5rem;
     opacity: 0.5;
