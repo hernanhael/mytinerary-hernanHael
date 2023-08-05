@@ -1,13 +1,14 @@
 import React from "react";
 import Navbar from "./navbar/Navbar";
-// import Logo from "../../../public/mytinerary-logo.png";
 import "./header.css";
 
 export const Header = () => {
   return (
-    <div className="app-header">
-      <div className="header-logo">Logo</div>
+    <header className="app-header">
+      <div className="header-logo">
+        <img src="../../../public/mytinerary-logo.png" alt="logo-myitinerary" />
+      </div>
       <Navbar />
-    </div>
+    </header>
   );
 };
