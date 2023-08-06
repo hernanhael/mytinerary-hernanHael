@@ -1,0 +1,12 @@
+.header-navbar{
+    display: flex;
+    align-items: start;
+    gap: 10px;
+}
+
+.header-navbar a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: rgb(98, 98, 218);
+}
