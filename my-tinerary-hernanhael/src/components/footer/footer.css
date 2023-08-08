@@ -1,4 +1,16 @@
 .app-footer { 
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
     height: 20vh;
+    color:red;
+    padding: 3rem;
+    flex-grow: 1;
+    
+} 
+
+.description { 
+    display: flex;
+    align-items: center;
 }

@@ -1,4 +1,10 @@
 .app-layout { 
+    flex-grow: 1;
     padding: 3rem;
 }
 
+.app-layout-footer { 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
