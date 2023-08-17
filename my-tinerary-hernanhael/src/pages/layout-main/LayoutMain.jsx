@@ -1,16 +1,16 @@
 import React from "react";
 import { Header } from "../../components/header/Header";
-import { Main } from "../../components/main/Main";
 import { Footer } from "../../components/footer/Footer";
+import Carousel from "../../components/carousel/Carousel";
 import "./layoutMain.css";
 
-const LayoutMain = () => {
+const LayoutMain = ({ children }) => {
   return (
     <>
       <div className="app-layout">
         <Header />
-        <Main />
       </div>
+      {children}
       <div className="app-layout-footer">
         <Footer />
       </div>
