@@ -1,17 +1,12 @@
 import Navbar from "./navbar/Navbar";
+import Logo from "../logo/Logo";
 import "./header.css";
 
 export default function Header() {
   return (
     <header className="app-header">
-      <div>
-        <img
-          src="/mytinerary-logo.png"
-          alt="logo-myitinerary"
-          className="header-logo"
-        />
-        <h1>MyTinerary</h1>
-      </div>
+      <Logo />
+      <h1>MyTinerary</h1>
       <Navbar />
     </header>
   );

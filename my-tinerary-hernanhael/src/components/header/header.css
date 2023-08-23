@@ -3,14 +3,8 @@
     justify-content: space-between;
     align-items: center;
     min-height: 25vh;
-    background-color: rgb(255, 255, 255); 
+    background-color: red; 
     padding: 2rem;
     border: 3px solid red;
     border-radius: 0.5rem;
-    opacity: 0.5;
 } 
-
-.header-logo { 
-    height: 11rem;
-    width: 11rem;
-}
