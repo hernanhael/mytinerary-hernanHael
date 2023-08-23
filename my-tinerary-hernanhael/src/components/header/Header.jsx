@@ -1,8 +1,7 @@
-import React from "react";
 import Navbar from "./navbar/Navbar";
 import "./header.css";
 
-export const Header = () => {
+export default function Header() {
   return (
     <header className="app-header">
       <div>
@@ -16,4 +15,4 @@ export const Header = () => {
       <Navbar />
     </header>
   );
-};
+}
