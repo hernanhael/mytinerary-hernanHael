@@ -1,16 +1,10 @@
-import React from "react";
-import LayoutMain from "../layout-main/LayoutMain";
 import Carousel from "../../components/carousel/Carousel";
 import "./home.css";
 
-const Home = () => {
+export default function Home() {
   return (
-    <LayoutMain>
-      <div className="home-carousel">
-        <Carousel />
-      </div>
-    </LayoutMain>
+    <div className="home-carousel">
+      <Carousel />
+    </div>
   );
-};
-
-export default Home;
+}
