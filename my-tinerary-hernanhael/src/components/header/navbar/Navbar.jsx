@@ -1,11 +1,25 @@
+import { Link, NavLink } from "react-router-dom";
 import "./navbar.css";
+
+const links = [
+  { id: "home", label: "Home", href: "/home" },
+  { id: "cities", label: "Cities", href: "/cities" },
+];
+
+const NavBarLink = ({ href, label }) => {
+  return (
+    <div className="navbar-link">
+      <Link to={href}>{label}</Link>
+    </div>
+  );
+};
 
 export default function Navbar() {
   return (
-    <nav className="header-navbar">
-      <a href="#">Home</a>
-      <a href="#">Cities</a>
-      <a href="#">Page 3</a>
+    <nav className="navbar">
+      {links.map((link) => (
+        <NavBarLink id={link.id} label={link.label} href={link.href} />
+      ))}
     </nav>
   );
 }
